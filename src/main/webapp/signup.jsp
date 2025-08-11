@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Register Page</title>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATcDUv-2ml26Jhmr3TPkVgsPPvVN3Ffw0"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&callback=initMap"></script>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
